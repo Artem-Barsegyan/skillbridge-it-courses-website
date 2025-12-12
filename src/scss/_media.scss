@@ -1,0 +1,787 @@
+@use 'vars' as *;
+
+@media screen and (max-width: 1525px) {
+
+    .main-top-title>div div {
+
+        h1,
+        p {
+            max-width: 600px;
+        }
+
+        h1 {
+            font-size: 46px;
+        }
+    }
+}
+
+@media screen and (max-width: 1229px) {
+
+    .main-top-title>div div {
+        justify-content: center;
+        flex-direction: column;
+
+        h1,
+        p {
+            max-width: 748px;
+        }
+    }
+}
+
+@media screen and (max-width: 737px) {
+
+    .main-top-title>div div {
+
+        h1 {
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+    }
+}
+
+@media screen and (max-width: 1160px) {
+
+    .header-bottom {
+        padding-left: 0;
+        padding-right: 0;
+
+        div:first-child ul {
+            position: fixed;
+            right: -100%;
+            flex-direction: column;
+            row-gap: 26px;
+            padding: 330px 116px 0 116px;
+            background-color: $whiteGreyNum97;
+            opacity: 0.9;
+            transition: all 0.5s ease;
+            z-index: 50;
+            height: 5000px;
+        }
+    }
+
+    .burger-btn {
+        display: flex;
+        z-index: 100;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .header-top {
+
+        a {
+            font-size: 15px;
+
+            &:after {
+                left: 19px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+    .header-top {
+
+        a {
+            font-size: 13px;
+        }
+    }
+}
+
+@media screen and (max-width: 1627px) {
+
+    .courses-content {
+        justify-content: space-around;
+    }
+
+    .testimonials-content {
+        justify-content: space-around;
+    }
+
+    .benefits-title,
+    .courses-title,
+    .testimonials-title {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1626px) {
+
+    .benefits-content {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 1597px) {
+
+    .pricing-content {
+        justify-content: center;
+        row-gap: 25px;
+    }
+}
+
+@media screen and (max-width: 1504px) {
+
+    .faq-title {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 1478px) {
+
+    .pricing-title {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1326px) {
+
+    .benefits-title,
+    .courses-title,
+    .testimonials-title,
+    .pricing-title {
+
+        div {
+            max-width: 900px;
+        }
+    }
+}
+
+@media screen and (max-width: 1087px) {
+
+    .benefits-item {
+        width: 100%;
+        max-width: 784px;
+    }
+
+    .courses-title,
+    .testimonials-title,
+    .benefits-title {
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 784px;
+        margin: 0 auto 40px;
+    }
+}
+
+@media screen and (max-width: 1049px) {
+
+    .benefits-title,
+    .courses-title,
+    .testimonials-title,
+    .pricing-title {
+
+        div {
+            max-width: 650px;
+        }
+    }
+}
+
+@media screen and (max-width: 1096px) {
+
+    .faq-section {
+        padding: 50px;
+    }
+
+    .question-wrapper {
+
+        details {
+            padding: 20px 24px;
+
+            summary {
+
+                span {
+                    font-size: 16px;
+                }
+
+                &:after {
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 920px) {
+
+    .hero-title {
+
+        h1 {
+            width: fit-content;
+            font-size: 40px;
+
+            &::before {
+                content: url(../assets/home/hero/in-hero-title-icon-responsive.svg);
+                width: 48px;
+                height: 48px;
+            }
+        }
+
+        span:nth-child(2) {
+            font-size: 33px;
+        }
+    }
+}
+
+@media screen and (max-width: 827px) {
+
+    .pricing-content {
+        padding: 20px;
+    }
+
+    .price-info__item {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 799px) {
+
+    .benefits-title,
+    .courses-title,
+    .testimonials-title,
+    .pricing-title {
+
+        div {
+            max-width: 450px;
+        }
+    }
+}
+
+@media screen and (max-width: 796px) {
+    .faq-section {
+        padding: 24px;
+    }
+
+    .question-wrapper {
+
+        details {
+
+            summary {
+
+                span {
+                    max-width: 450px;
+                    ;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 774px) {
+
+    .hero-title {
+
+        h1 {
+            font-size: 32px;
+            padding: 10px 14px;
+            padding-top: 0;
+
+            &::after {
+                content: url(../assets/home/hero/out-hero-title-lines-responsive.svg);
+                left: -13px;
+                top: -19px;
+            }
+        }
+
+        span:nth-child(2) {
+            font-size: 25px;
+        }
+    }
+}
+
+@media screen and (max-width: 658px) {
+
+    .hero-title {
+
+        h1 {
+            font-size: 25px;
+
+            >span {
+                position: relative;
+                bottom: 4px;
+            }
+        }
+
+        span:nth-child(2) {
+            font-size: 20px;
+        }
+
+        span:nth-child(3) {
+            font-size: 16px;
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .question-wrapper {
+
+        details {
+
+            summary {
+
+                span {
+                    max-width: 330px;
+                    ;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 599px) {
+
+    .benefits-title,
+    .courses-title,
+    .testimonials-title,
+    .pricing-title {
+
+        div {
+            max-width: 358px;
+
+            span {
+                font-size: 42px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 570px) {
+
+    .courses-item__subinfo {
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 15px;
+    }
+
+    .courses-item {
+        padding: 24px;
+    }
+
+    .testimonials-item {
+
+        p {
+            padding: 30px;
+        }
+    }
+
+    .user-info {
+        padding: 20px 30px;
+
+        a {
+            width: 137px;
+            height: 49px;
+            font-size: 14px;
+        }
+    }
+
+    .price-info__item {
+
+        span {
+            font-size: 14px;
+        }
+    }
+
+    .price-info__item span .marker {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+
+    .question-wrapper {
+
+        details {
+
+            summary {
+
+                span {
+                    max-width: 230px;
+                    ;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 508px) {
+
+    .hero-title {
+
+        h1 {
+            font-size: 16px;
+
+            >span {
+                position: relative;
+                bottom: 10px;
+            }
+
+            &::before {
+                top: 8px;
+            }
+        }
+
+        span:nth-child(2) {
+            font-size: 15px;
+        }
+
+        span:nth-child(3) {
+            font-size: 12px;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .question-wrapper {
+
+        details {
+
+            summary {
+
+                span {
+                    max-width: 180px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+// footer
+@media screen and (max-width: 1280px) {
+
+    .footer {
+        padding: 60px 80px 20px;
+    }
+}
+
+@media screen and (max-width: 1116px) {
+
+    .footer {
+        padding: 50px 20px 24px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+
+    .footer-top {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        row-gap: 25px;
+    }
+
+    .footer-top-content {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .footer-menu {
+        margin-bottom: 25px;
+        flex-wrap: wrap;
+        row-gap: 25px;
+    }
+}
+
+@media screen and (max-width: 405px) {
+
+    .footer-bottom p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1575px) {
+
+    .courses-info-top__title div {
+        max-width: 1080px;
+    }
+}
+
+@media screen and (max-width: 1369px) {
+
+    .courses-info-top__title div {
+        max-width: 890px;
+    }
+}
+
+@media screen and (max-width: 1179px) {
+
+    .courses-info-top__title div {
+        max-width: 580px;
+    }
+}
+
+@media screen and (max-width: 1119px) {
+
+    .courses-info-bottom__subtitle {
+        display: flex;
+        justify-content: center;
+    }
+
+    .courses-info-bottom__learn-time-info {
+        flex-direction: column;
+        justify-content: center;
+
+        div:not(:last-child) {
+            border-right: none;
+            border-bottom: 1px solid $whiteGreyNum95;
+            padding-bottom: 20px;
+        }
+
+        div {
+            width: 100%;
+            align-items: center;
+        }
+    }
+}
+
+@media screen and (max-width: 869px) {
+
+    .courses-info-top__title div {
+        max-width: 440px;
+    }
+}
+
+@media screen and (max-width: 729px) {
+
+    .courses-info-top__title div {
+        max-width: 310px;
+    }
+}
+
+@media screen and (max-width: 393px) {
+
+    .courses-info-top__subtitle div span {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 1625px) {
+
+    .course-description-content {
+        justify-content: center;
+    }
+
+    .course-description-item__info-description {
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 24px;
+    }
+}
+
+@media screen and (max-width: 1625px) {
+
+    .achievments-content,
+    .goals-content {
+        justify-content: center;
+    }
+
+    .achievments-item,
+    .goals-item {
+        max-width: 630px;
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 1326px) {
+
+    .about-us-link div {
+        max-width: 757px;
+    }
+}
+
+@media screen and (max-width: 1319px) {
+
+    .achievments-title,
+    .goals-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1075px) {
+
+    .about-us-link {
+        flex-wrap: wrap;
+        row-gap: 40px;
+
+        &::after {
+            width: 190px;
+            height: 190px;
+            right: 164px;
+            bottom: 42px;
+        }
+    }
+}
+
+@media screen and (max-width: 935px) {
+
+    .about-us-link div h2 {
+        font-size: 40px;
+    }
+
+    .about-us-link div p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 719px) {
+
+    .about-us-link {
+        padding: 30px;
+
+        &::after {
+            bottom: -9px;
+        }
+    }
+
+    .about-us-link div h2 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 513px) {
+
+    .about-us-link div h2 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 1625px) {
+
+    .contact-content {
+        justify-content: space-around;
+    }
+
+    .contact-form {
+        max-width: 870px;
+    }
+
+    .contact-form,
+    .contact-link {
+        padding: 60px;
+    }
+}
+
+@media screen and (max-width: 1419px) {
+
+    .contact-form {
+        max-width: 680px;
+    }
+}
+
+@media screen and (max-width: 1229px) {
+
+    .contact-content {
+        justify-content: center;
+    }
+
+    .contact-form {
+        border: none;
+    }
+}
+
+@media screen and (max-width: 645px) {
+
+    .contact-form__info input[placeholder],
+    textarea[placeholder] {
+        font-size: 14px;
+    }
+
+    .contact-link__item {
+        width: 290px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .contact-form__info input {
+        padding: 14px 14px;
+    }
+
+    .contact-form,
+    .contact-link {
+        padding: 30px;
+    }
+
+    .contact-form__info:nth-child(3) div:nth-child(2) textarea {
+        padding: 14px 14px;
+    }
+
+    .contact-form__info input[placeholder],
+    textarea[placeholder] {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1528px) {
+
+    .testimonials {
+        max-width: 729px;
+    }
+
+    .form {
+        max-width: 540px;
+    }
+
+    .form-top__title span:nth-child(2) {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1308px) {
+
+    .form-section {
+        flex-direction: column-reverse;
+    }
+
+    .testimonials-buttons {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 570px) {
+
+    .form {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 502px) {
+
+    .form-top__title span:nth-child(1) {
+        font-size: 28px;
+    }
+
+    .form-top__title span:nth-child(2) {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 398px) {
+
+    .form-bottom div:nth-child(2) span,
+    .form-bottom div:nth-child(2) a {
+        font-size: 16px;
+    }
+}

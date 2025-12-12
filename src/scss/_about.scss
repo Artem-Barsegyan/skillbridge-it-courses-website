@@ -1,0 +1,127 @@
+@use 'vars' as *;
+
+.about-us-section {
+    padding-top: 109px;
+    margin-bottom: 150px;
+}
+
+.achievments-info,
+.goals-info {
+    margin-bottom: 177px;
+}
+
+.achievments-title,
+.goals-title {
+    margin-bottom: 80px;
+
+    span:nth-child(1) {
+        display: block;
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 150%;
+        color: $greyNum20;
+        margin-bottom: 6px;
+    }
+
+    span:nth-child(2) {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 150%;
+        color: $greyNum35;
+    }
+}
+
+.achievments-content,
+.goals-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.achievments-item,
+.goals-item {
+    width: 100%;
+    max-width: 783px;
+    background-color: $white;
+    border-radius: 12px;
+    padding: 50px;
+
+    span {
+        display: block;
+    }
+
+    span:nth-child(1) {
+        margin-bottom: 30px;
+    }
+
+    span:nth-child(2) {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 150%;
+        color: $greyNum15;
+        margin-bottom: 14px;
+    }
+
+    p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 150%;
+        color: $greyNum35;
+    }
+}
+
+.about-us-link {
+    background-color: $white;
+    border-radius: 12px;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+    div {
+        width: 100%;
+        max-width: 1008px;
+        position: relative;
+        z-index: 100;
+
+        h2 {
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 120%;
+            color: $greyNum15;
+            margin-bottom: 20px;
+
+            span {
+                color: $orangeNum50;
+            }
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 150%;
+            color: $greyNum40;
+        }
+    }
+
+    a {
+        display: inline-block;
+        width: 129px;
+        height: 63px;
+        background-color: $orangeNum50;
+        border-radius: 8px;
+        color: $white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: 100;
+    }
+
+    &::after {
+        content: url(../assets/about/about-us-link-after.svg);
+        position: absolute;
+        right: 230px;
+    }
+}

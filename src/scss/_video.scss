@@ -1,0 +1,29 @@
+@use 'vars' as *;
+
+.vjs-theme-fantasy .vjs-big-play-button {
+    color: $orangeNum50;
+}
+
+.vjs-theme-fantasy .vjs-play-progress,
+.vjs-theme-fantasy .vjs-play-progress:before {
+    background-color: $orangeNum50;
+}
+
+.video-js .vjs-tech {
+    border-radius: 12px;
+}
+
+.video-js.vjs-fluid,
+.video-js.vjs-16-9,
+.video-js.vjs-4-3,
+.video-js.vjs-9-16,
+.video-js.vjs-1-1 {
+    border-radius: 12px;
+}
+
+.vjs-has-started .vjs-control-bar,
+.vjs-audio-only-mode .vjs-control-bar {
+    background-color: #ff95005c;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}

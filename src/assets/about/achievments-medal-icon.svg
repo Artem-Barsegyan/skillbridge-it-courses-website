@@ -1,0 +1,24 @@
+<svg width="66.000000" height="66.000000" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip148_2915">
+			<rect id="Objects &amp; Tools" rx="0.000000" width="33.000000" height="33.000000" transform="translate(16.500000 16.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<clipPath id="clip148_2904">
+			<rect id="Icon Container" rx="7.500000" width="65.000000" height="65.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="Icon Container" rx="7.500000" width="65.000000" height="65.000000" transform="translate(0.500000 0.500000)" fill="#FFF9F0" fill-opacity="1.000000"/>
+	<g clip-path="url(#clip148_2904)">
+		<g clip-path="url(#clip148_2915)">
+			<rect id="medal.fill" rx="0.000000" width="26.090107" height="31.116886" transform="translate(20.144531 17.714294)" fill="#FFFFFF" fill-opacity="0"/>
+			<g opacity="0.000000">
+				<path id="Vector" d="M19.64 17.21L46.73 17.21L46.73 49.33L19.64 49.33L19.64 17.21Z" fill="#FF9500" fill-opacity="1.000000" fill-rule="evenodd"/>
+			</g>
+			<path id="Vector" d="M33.17 49.31C38.19 49.31 42.23 45.27 42.23 40.28C42.23 35.27 38.19 31.23 33.17 31.23C28.18 31.23 24.14 35.27 24.14 40.28C24.14 45.27 28.18 49.31 33.17 49.31ZM30.6 44.93C30.06 45.33 29.49 44.91 29.71 44.29L30.73 41.23L28.11 39.37C27.61 39 27.77 38.3 28.45 38.3L31.67 38.33L32.65 35.25C32.85 34.63 33.53 34.63 33.73 35.25L34.71 38.33L37.93 38.3C38.61 38.3 38.75 39.01 38.27 39.35L35.65 41.23L36.68 44.29C36.89 44.91 36.32 45.33 35.78 44.93L33.19 43.04L30.6 44.93ZM24.51 33.5C25.91 31.74 27.83 30.4 30.03 29.75L23.58 18.16L19.84 23.87C19.59 24.24 19.57 24.65 19.8 25.02L24.51 33.5ZM29.99 24.89L36.38 24.89L40.72 17.21L25.65 17.21L29.99 24.89ZM36.33 29.75C38.55 30.4 40.46 31.74 41.86 33.5L46.58 25.02C46.8 24.65 46.78 24.24 46.52 23.87L42.78 18.16L36.33 29.75Z" fill="#FF9500" fill-opacity="1.000000" fill-rule="nonzero"/>
+		</g>
+	</g>
+	<rect id="Icon Container" rx="7.500000" width="65.000000" height="65.000000" transform="translate(0.500000 0.500000)" stroke="#FFEACC" stroke-opacity="1.000000" stroke-width="1.000000"/>
+</svg>

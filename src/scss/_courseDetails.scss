@@ -1,0 +1,97 @@
+@use 'vars' as *;
+
+.course-description-section {
+    padding-top: 109px;
+    margin-bottom: 100px;
+}
+
+#my-video {
+    margin-bottom: 150px;
+}
+
+.course-description-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 150px;
+}
+
+.course-description-item {
+    width: 100%;
+    max-width: 783px;
+    background-color: $white;
+    border-radius: 12px;
+    padding: 50px;
+
+    >span {
+        height: 59px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 24px;
+        color: $greyNum15;
+        margin-bottom: 50px;
+    }
+}
+
+.course-description-item__info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+    >span {
+        display: inline-block;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 150%;
+        letter-spacing: -0.6%;
+        color: $greyNum20;
+        margin-bottom: 50px;
+    }
+}
+
+.course-description-item__info-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 6px;
+    border: 1px solid $whiteGreyNum95;
+    border-radius: 8px;
+    padding: 24px 30px;
+
+    div {
+        span:nth-child(1) {
+            display: block;
+            max-width: 464px;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 150%;
+            color: $greyNum20;
+        }
+
+        span:nth-child(2) {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 150%;
+            color: $greyNum35;
+        }
+    }
+
+    >span {
+        display: flex;
+        align-items: center;
+        background-color: $whiteGreyNum97;
+        border-radius: 6px;
+        column-gap: 7px;
+        padding: 12px 14px;
+
+        &::before {
+            content: url(../assets/courses/course-description-item-icon.svg);
+            display: inline-flex;
+            width: 18px;
+            height: 18px;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+<svg width="52.000000" height="52.000000" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip41_293">
+			<rect id="Icon" rx="0.000000" width="23.000000" height="23.000000" transform="translate(14.500000 14.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="Button" rx="7.500000" width="51.000000" height="51.000000" transform="translate(0.500000 0.500000)" fill="#F7F7F8" fill-opacity="1.000000"/>
+	<g clip-path="url(#clip41_293)">
+		<path id="Subtract" d="M25.53 36.35C25.57 36.36 25.59 36.38 25.6 36.39L25.64 36.4C25.85 36.52 26.14 36.52 26.35 36.4L26.39 36.39C26.4 36.38 26.42 36.36 26.46 36.35C26.52 36.31 26.6 36.26 26.71 36.19C26.92 36.06 27.24 35.86 27.6 35.6C28.33 35.09 29.31 34.32 30.28 33.32C32.23 31.33 34.25 28.34 34.25 24.5C34.25 19.94 30.55 16.25 26 16.25C21.44 16.25 17.75 19.94 17.75 24.5C17.75 28.34 19.76 31.33 21.71 33.32C22.68 34.32 23.66 35.09 24.39 35.6C24.75 35.86 25.07 36.06 25.28 36.19C25.39 36.26 25.47 36.31 25.53 36.35ZM26 27.5C27.65 27.5 29 26.15 29 24.5C29 22.84 27.65 21.5 26 21.5C24.34 21.5 23 22.84 23 24.5C23 26.15 24.34 27.5 26 27.5Z" fill="#262626" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+	<rect id="Button" rx="7.500000" width="51.000000" height="51.000000" transform="translate(0.500000 0.500000)" stroke="#F1F1F3" stroke-opacity="1.000000" stroke-width="1.000000"/>
+</svg>

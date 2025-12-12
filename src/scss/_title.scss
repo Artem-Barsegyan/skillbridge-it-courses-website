@@ -1,0 +1,44 @@
+@use 'vars' as *;
+
+.main-top-title {
+    width: 100%;
+    max-width: 1890px;
+    margin: 0 auto;
+    padding: 0 15px;
+    margin-bottom: 150px;
+
+    >div {
+        border-bottom: 1px solid $whiteGreyNum90;
+
+        div {
+            width: 100%;
+            max-width: 1600px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            padding-bottom: 50px;
+
+            h1,
+            p {
+                max-width: 748px;
+            }
+
+            h1 {
+                font-size: 48px;
+                font-weight: 600;
+                line-height: 150%;
+                color: $greyNum15;
+            }
+
+            p {
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 150%;
+                color: $greyNum35;
+            }
+        }
+    }
+}

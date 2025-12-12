@@ -1,0 +1,60 @@
+@use 'vars' as *;
+
+.testimonials {
+    width: 100%;
+    max-width: 829px;
+
+    .title {
+        margin-bottom: 80px;
+
+        h1 {
+            font-size: 38px;
+            font-weight: 500;
+            line-height: 150%;
+            color: $greyNum15;
+            margin-bottom: 6px;
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 150%;
+            color: $greyNum35;
+        }
+    }
+}
+
+.swiper {
+    margin-bottom: 30px;
+    border-radius: 12px;
+}
+
+.swiper-slide {
+
+    .testimonials-item {
+        width: 100%;
+        max-width: 829px;
+    }
+}
+
+.testimonials-buttons {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 15px;
+
+    button {
+        width: 62px;
+        height: 62px;
+        border: 1px solid $whiteGreyNum95;
+        border-radius: 8px;
+        background-color: $white;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:active {
+            background-color: $whiteGreyNum95;
+        }
+    }
+}
