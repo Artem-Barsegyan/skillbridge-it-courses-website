@@ -1,16 +1,38 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# SkillBridge - Образовательная платформа
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Современная платформа для онлайн-курсов по дизайну и разработке на React.
 
-## React Compiler
+## 🚀 Возможности
+- **Главная страница** с видео-презентацией
+- **Каталог курсов** с детальным описанием
+- **Гибкие тарифы** (Standard/Pro)
+- **Адаптивный дизайн** для всех устройств
+- **Формы авторизации** с валидацией
+- **FAQ раздел** с раскрывающимися вопросами
+- **Отзывы студентов** в слайдере
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Технологии
+- React 18 + React Router DOM
+- SCSS/SASS с модульной архитектурой
+- Video.js для видео-плеера
+- Swiper.js для слайдеров
+- Адаптивная верстка (mobile-first)
 
-## Expanding the ESLint configuration
+## 🎨 Дизайн
+- **Цветовая схема**: Оранжевый (#FF9500) + оттенки серого
+- **Шрифт**: Be Vietnam Pro
+- **Компоненты**: Скругленные углы, современные карточки
+- **Адаптивность**: От 320px до 1920px+
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Быстрый старт
+```bash
+# Клонировать репозиторий
+git clone https://github.com/ваш-username/skillbridge.git
+
+# Установить зависимости
+npm install
+
+# Запустить проект
+npm start
