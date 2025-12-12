@@ -1,4 +1,4 @@
-[🌐 **Рабочая версия**](https://verify-form.netlify.app/)
+[🌐 **Рабочая версия**](https://skillbridgesite.netlify.app/)
 
 # SkillBridge - Образовательная платформа
 
