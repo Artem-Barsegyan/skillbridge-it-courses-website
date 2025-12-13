@@ -44,6 +44,13 @@
 
 @media screen and (max-width: 1160px) {
 
+    .header {
+        position: sticky;
+        top: 0;
+        background-color: $whiteGreyNum97;
+        z-index: 200;
+    }
+
     .header-bottom {
         padding-left: 0;
         padding-right: 0;
@@ -55,10 +62,10 @@
             row-gap: 26px;
             padding: 330px 116px 0 116px;
             background-color: $whiteGreyNum97;
-            opacity: 0.9;
             transition: all 0.5s ease;
             z-index: 50;
             height: 5000px;
+            width: 100vw;
         }
     }
 
