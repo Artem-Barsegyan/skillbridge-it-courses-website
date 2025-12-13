@@ -1,5 +1,6 @@
 import { NavLink, Link } from "react-router";
 import { useState } from "react";
+import { menu } from '../data/header';
 
 import logo from '../assets/header/header-bottom-logo.svg';
 
@@ -9,6 +10,10 @@ const Header = () => {
 
     const handleBurgerBtn = () => {
         setOpenBurgerBtn(!openBurgerBtn);
+    }
+
+    const handleBurgerMenuLink = () => {
+        setOpenBurgerBtn(false);
     }
 
     return (
@@ -23,11 +28,18 @@ const Header = () => {
                             width="54" height="54" /></Link>
                         <ul
                             className={openBurgerBtn ? 'menu open' : 'menu'}>
-                            <li><NavLink to="/" end={true}>Home</NavLink></li>
-                            <li><NavLink to="/courses">Courses</NavLink></li>
-                            <li><NavLink to="/about">About Us</NavLink></li>
-                            <li><NavLink to="/pricing">Pricing</NavLink></li>
-                            <li><NavLink to="/contacts">Contact</NavLink></li>
+                            {menu.map(({ section, path }) => {
+                                return (
+                                    <li key={section}>
+                                        <NavLink
+                                            to={path}
+                                            end={path === '/' ? true : false}
+                                            onClick={handleBurgerMenuLink}>
+                                            {section}
+                                        </NavLink>
+                                    </li>
+                                )
+                            })}
                         </ul>
                     </div>
                     <div className="header-links">
