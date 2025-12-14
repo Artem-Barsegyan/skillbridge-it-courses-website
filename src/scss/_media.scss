@@ -61,7 +61,6 @@
             right: -100%;
             flex-direction: column;
             row-gap: 26px;
-            padding: 120px 20px 0 20px;
             background-color: $whiteGreyNum97;
             transition: all 0.5s ease;
             z-index: 50;
@@ -580,6 +579,7 @@
 
     .courses-info-top__subtitle div span {
         font-size: 17px;
+        padding-inline: 12px;
     }
 }
 
