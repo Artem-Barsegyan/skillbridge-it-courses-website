@@ -1,4 +1,4 @@
-[🌐 **Рабочая версия**](https://skillbridgesite.netlify.app/)
+[🌐 **Рабочая версия**](https://skillbridgesite.vercel.app/)
 
 # SkillBridge - Образовательная платформа
 
